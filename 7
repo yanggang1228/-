@@ -1,0 +1,145 @@
+##import random
+##com = random.randint(1, 3)
+##user = int(input('1 : 가위 2 : 바위 3 : 보\n'))
+##
+##if com == 1:
+##    com = "가위"
+##elif com == 2:
+##    com = "바위"
+##elif com == 3 :
+##    com = "보"
+##if user == 1:
+##    user = "가위"
+##elif user == 2:
+##    user = "바위"
+##elif user == 3 :
+##    user = "보"
+##
+##print("Com(%s) : User(%s)" %(com,user))
+##if user =="가위":
+##    if com == "바위":
+##        print("coms wins!")
+##    elif com =="보":
+##        print("User wins!")
+##    elif com == "가위":
+##        print("Draw")
+##elif user =="바위":
+##    if com == "보":
+##        print("coms wins!")
+##    elif com =="가위":
+##        print("User wins!")
+##    elif com == "바위":
+##        print("Draw")
+##elif user =="보":
+##    if com == "가위":
+##        print("coms wins!")
+##    elif com =="바위":
+##        print("User wins!")
+##    elif com == "보":
+##        print("Draw")
+
+##from random import *
+##a = ['월','화','수','목','금','토','일']
+##r = randint(0,6)
+##print(a[r])
+
+##from random import *
+##a = ['월','화','수','목','금']
+##print(choice([True,False]))
+##print(choices(a))
+
+##from random import *
+##a = ['1','2','3','4','5']
+##print(choices(a,[1,1,10,1,1],k=3))
+
+##from random import *
+##a = ['0','1','2','3','4','5']
+##c = choice(a)
+##if c == '0' :
+##    print('LOSS!')
+##elif c != '0' :
+##    print('NO. %s Spot!' % c)
+
+##from random import *
+##import turtle
+##house = turtle.Turtle()
+##house.penup()
+##house.goto(300 , -150)
+##house.pendown()
+##house.begin_fill()
+##house.fillcolor("skyblue")
+##house.goto(400 , -150)
+##house.goto(400,-50)
+##house.goto(300,-50)
+##house.goto(300,-150)
+##house.end_fill()
+##house.penup()
+##house.goto(300,-50)
+##house.pendown()
+##house.begin_fill()
+##house.fillcolor("royalblue")
+##house.left(60)
+##house.forward(100)
+##house.left(60)
+##house.backward(100)
+##house.left(60)
+##house.forward(100)
+##house.end_fill()
+##line = turtle.Turtle()
+
+##line.penup()
+##line.goto(-300,-150)
+##line.pendown()
+##line.write('0')
+##line.goto(0,-150)
+##line.write("50")
+##line.goto(300,-150)
+##line.write('100')
+##t = turtle.Turtle(shape = "turtle")
+##t.penup()
+##t.goto(-320,-150)
+##t.pendown()
+##g = turtle.Turtle()
+##g.write("양경민의 타자 게임!",True, font = ("Arial", 20 , 'bold'))
+##fruit = ["apple","banana", "strawberry", "watermelon","mandarin","peach","grapes" , "Orange", "pear", "Kiwi"]
+##score = 0
+##n = randint(5,10)
+##for i in range(n) :
+##    s = choice(fruit)
+##    word = turtle.textinput("fruit",'%s(%d/%d)' % (s, i+1 , n))
+##    if word == s :
+##        score += 1
+##rate = score / n * 100
+##g.penup()
+##g.goto(0,-50)
+##g.pendown()
+##g.write("%d/%d번 성공!" % (score , n ), True , font = ("Arial", 15 , "bold"))
+##g.penup()
+##g.goto(0,-100)
+##g.pendown()
+##g.write("정확도 : %.1f%%" % rate , True,font = ("Arial" , 15 , "bold"))
+##distance = t.distance(line)/100 * rate
+##t.speed(1)
+##t.forward(distance)
+##if rate == 100 :
+##    t. write("집에 데려다줘서 고마워!! ♬",False,"center",font = ("Arial" , 15 , "bold"))
+##    t.left(60)
+##    t.right(60)
+##    t.left(60)
+##    t.tight(60)
+##elif rate >= 80 :
+##    t.write("집이 코앞인데!! 한 번만 더 시도해줘!! ",False , "center" , font = ("Arial" , 15, "normal"))
+##elif rate >= 50 :
+##    t.write("집에 가고 싶어!! ㅠ0ㅠ ", False,"center",font = ("Arial" , 15 , "normal"))
+##else :
+##    t.write('black')
+##    t.right(360)
+##    t.write("거북이가 쓰러졌어요 ㅠ0ㅠ ",False, "center",font = ("Arial" , 15 , "normal"))
+
+##turtle.done
+
+
+
+
+
+
