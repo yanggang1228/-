@@ -1,0 +1,141 @@
+##def add(n,m):
+##    x = n+m
+##    return x
+##
+##n = int(input())
+##m = int(input())
+##print(add(n,m))
+
+##def add(x,y):
+##    s = x + y
+##    return s
+##
+##result = add(10,20) + add(20,30)
+##print(result)
+
+##def get_max(x,y):
+##    if x > y :
+##        return x
+##    else :
+##        return y
+##x = int(input())
+##y= int(input())
+##n = get_max(x,y)
+##print(n)
+
+##def plus(x):
+##    if x >0:
+##        return True
+##    else :
+##        return False
+##x = int(input())
+##n = plus(x)
+##print(n)    
+
+##def get_sum(n) :
+##    s = 0
+##    for i in range(1,n+1):
+##        s += i
+##    return s
+##n = int(input())
+##print("1부터 %d까지의 합은 %d입니다."% (n , get_sum(n)))
+
+##def get_sum(a,b) :
+##    s = 0
+##    for i in range(a,b+1):
+##        s += i
+##    return s
+##a = int(input())
+##b = int(input())
+##print("%d부터 %d까지의 합은 %d입니다." % (a , b,get_sum(a,b)))
+
+##def f(a,b):
+##    x = a*b
+##    return x
+##a = int(input())
+##b = int(input())
+##print(f(a,b))
+
+##def f(a):
+##    x = a *3.14*a
+##    return x
+##a = int(input())
+##print(f(a))
+
+##def f(a):
+##    if a % 2 == 0:
+##        return 'even'
+##    if a % 2 != 0:
+##        return 'odd'
+##a = int(input())
+##print(f(a))
+
+##def f(a,b):
+##    sum = 1
+##    for i in range(b):
+##        sum = sum  *a
+##    return sum
+##a = int(input())
+##b = int(input())
+##print(f(a,b))
+
+##def get_sum(n):
+##    s = 0
+##    for i in range(n):
+##        s += int(input())
+##    return s
+##n= int(input("Enter integer n : "))
+##print("sum :",get_sum(n))
+
+##def f(n):
+##    max = 0
+##    for i in range(n):
+##        a = int(input())
+##        if a > max :
+##            max = a
+##    return max
+##n= int(input("Enter integer n : "))
+##print("max : ", f(n))
+            
+##def Login(a,b):
+##    if a == 'Cube' and b== 1234:
+##        return 1
+##    if a == 'Cube':
+##        return 2
+##    if b== 1234:
+##        return 3
+##    if a != 'Cube' and b!= 1234:
+##        return 4
+##def say(n):
+##    if n == 1:
+##        return 'Login success.'
+##    if n == 2:
+##        return 'Please check your PW.'
+##    if n == 3:
+##        return 'Please check your ID.'
+##    if n ==4:
+##        return 'Please check your ID and PW.'
+##a = input('ID')
+##b = int(input('PW'))
+##n = Login(a,b)
+##print(say(n))
+
+
+
+def is_prime(p):
+    check = 0
+    for i in range(2,p):
+        check = 0
+        if p %i == 0:
+            check = 1
+            break
+    if check == 0:
+        print("%d"%p)
+for i in range(2,101):
+    is_prime(i)
+
+
+
+
+
+    
