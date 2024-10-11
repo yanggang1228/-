@@ -1,0 +1,56 @@
+##f = open('example.txt','r')
+##while True :
+##    print(f.tell(),end = ' ')
+##    line = f.readline()
+##    print(line.strip())
+##    if not line :break
+##
+##f.seek(26)
+##print('after setting a point : %d(%s)' %(f.tell(),f.read()[0]))
+##f.close()
+
+##f = open('profile.txt','w')
+##name = input('Name : ')
+##age = input('Age : ')
+##school = input('School : ')
+##f.write('Name : %s\n' % name)
+##f.write('Age : %s\n' % age)
+##f.write('School : %s\n' % school)
+##f.close()
+
+##f = open('profile.txt','r')
+##data = f.read()
+##print(data)
+##f.close
+    
+##f = open('profile.txt','r')
+##data = f.readlines()
+##print(data[2])
+##f.close()
+
+##index = int(input('index :'))
+##f = open('alphabet.txt','r')
+##f.seek(index)
+##data = f.readline()
+##
+##print(data)
+##
+##f.close()
+
+##f = open('fruit.txt','r')
+##data = f.readlines()
+##for i in data:
+##    if len(i) > 10:
+##        print(i)
+##f.close()
+
+##f = open('anna.txt','r')
+##data = f.readline()
+##data = data.split()
+##for i in data:
+##    if 'b' in i:
+##        print(i)
+##f.close()
+
+
+
