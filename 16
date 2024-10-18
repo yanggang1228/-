@@ -1,0 +1,97 @@
+##def read_file(file_name) :
+##    f= open(file_name,'r')
+##    data = f.readlines()
+##    for i in data:
+##        print(i.strip())
+##    f.close()
+##def write_file(file_name,mode):
+##    f = open(file_name,mode)
+##    print('q를 입력하면 종료. : ')
+##    while True:
+##        data = input()
+##        if data == 'q':
+##            break
+##        f.write(data+'\n')
+##    f.close()
+##file_name = input('File name : ')
+##mode = input('File mode(r/w/a) : ')
+##
+##if mode == 'r' :
+##    read_file(file_name)
+##else :
+##    write_file(file_name,mode)
+
+##from PIL import Image
+##area = (230,155,1110,770)
+##size = (640,200)
+##lion_img = Image.open('Lion.jpg')
+##fruit_img = Image.open('fruit.png')
+##print(lion_img.size,lion_img.format,lion_img.mode)
+##print(fruit_img.size,fruit_img.format,fruit_img.mode)
+##fruit_resz = fruit_img.resize(size)
+##lion_cropped = lion_img.crop(area)
+##lion_img.show()
+##lion_cropped.save('lion_cropped.jpg')
+##fruit_resz.save('fruit_resized.png')
+
+##from PIL import Image
+##size = (128,128)
+##lion_img = Image.open('Lion.jpg')
+##lion_retated = lion_img.rotate(90)
+##lion_converted = lion_img.convert('L')
+##lion_transpose = lion_img.transpose(Image.FLIP_LEFT_RIGHT)
+##print('lion_converted.mode =',lion_converted.mode)
+##print('lion_img.size =',lion_img.size)
+##lion_converted.show()
+##lion_transpose.show()
+##lion_rotated.save('lion_rotated.jpg')
+##lion_img.save('lion_thumb.jpg')
+
+##from random import *
+##price = int(input('가격 : '))
+##coupon = randint(1,99)
+##sale = price * 0.01 * coupon
+##print('축하합니다! %d%% 할인쿠폰에 당첨되셨습니다!' %coupon)
+##print('할인된 가격 : %d - %d = %d + %d(부가세) = 총 %d원'%(price,sale,price - sale,(price - sale)*0.1,price - sale+ (price - sale)*0.1))
+
+##from random import*
+##first = 0
+##second = 0
+##count = int(input('횟수 : '))
+##for i in range(count):
+##    coin = randint(0,1)
+##    if coin == 0:
+##        first = first +1
+##    else:
+##        second = second + 1
+##print('앞면 : %d ' %first)
+##print('뒷면 : %d ' %second)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
